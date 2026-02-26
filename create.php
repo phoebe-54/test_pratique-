@@ -8,10 +8,10 @@
 <div class="container mt-4">
     <h2>Créer un nouveau marché</h2>
 
-    <form action="store.php" method="POST" enctype="multipart/form-data">
+    <form action="saisie.php" method="POST" enctype="multipart/form-data">
         <div class="mb-3">
             <label>Nom du marché</label>
-            <input type="text" name="nom" class="form-control" required>
+            <input type="text" name="nom_marche" class="form-control" required>
         </div>
 
         <div class="mb-3">
